@@ -1,7 +1,8 @@
 export const Footer = () => {
   return (
-    <footer className="bg-white mt-8 py-4 border-t">
+    <footer className="bg-white mt-8 py-2 border-t border-slate-400">
       <div className="container mx-auto px-4 text-center text-sm text-slate-500">
+        © {new Date().getFullYear()}
         <p>
           Data sourced from{" "}
           <a
